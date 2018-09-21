@@ -8,6 +8,12 @@ ADD https://sonarsource.bintray.com/Distribution/sonar-ldap-plugin/sonar-ldap-pl
 # Add SAML Plugin
 ADD https://sonarsource.bintray.com/Distribution/sonar-auth-saml-plugin/sonar-auth-saml-plugin-1.0.0.116.jar $SONARQUBE_PLUGINS_DIR
 
+# Add Git SCM Plugin
+ADD https://sonarsource.bintray.com/Distribution/sonar-scm-git-plugin/sonar-scm-git-plugin-1.4.1.1128.jar $SONARQUBE_PLUGINS_DIR
+
+# Add SVN SCM Plugin
+ADD https://sonarsource.bintray.com/Distribution/sonar-scm-svn-plugin/sonar-scm-svn-plugin-1.8.0.1168.jar $SONARQUBE_PLUGINS_DIR
+
 # Add Java Language Scanner
 ADD https://sonarsource.bintray.com/Distribution/sonar-java-plugin/sonar-java-plugin-5.7.0.15470.jar $SONARQUBE_PLUGINS_DIR
 
