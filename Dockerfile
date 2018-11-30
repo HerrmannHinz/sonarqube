@@ -22,3 +22,6 @@ ADD https://sonarsource.bintray.com/Distribution/sonar-javascript-plugin/sonar-j
 
 # Add Typescript Language Scanner
 ADD https://sonarsource.bintray.com/Distribution/sonar-typescript-plugin/sonar-typescript-plugin-1.8.0.3332.jar $SONARQUBE_PLUGINS_DIR
+
+# Add Dependency Scanner 
+ADD https://github.com/stevespringett/dependency-check-sonar-plugin/releases/download/1.2.0/sonar-dependency-check-plugin-1.2.0.jar $SONARQUBE_PLUGINS_DIR
